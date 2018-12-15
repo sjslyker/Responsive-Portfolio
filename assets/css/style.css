@@ -1,0 +1,473 @@
+/*CSS Style Sheet */
+
+
+/*  (Section-1) Header & Menu Section*/
+.TopWidth {
+  width: 100%;
+  margin-top: -20px;
+  background: #ffffff;
+}
+/* header width and centering */
+.Name-Menu {
+  width: 960px;
+  margin: auto;
+}
+/* header and menu design */
+header {
+  border-bottom: 1px #777777;
+  height: 75px;
+  border-bottom: 3px solid black;
+  border-color: #cccccc;
+  margin-bottom: 40px;
+  width: 100%;
+}
+/* menu buttons */
+.MenuItems {
+  margin-top: 20px;
+  padding-top: 25px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+/* H1 Design */
+h1 {
+  width: 250px;
+  background: #4aaaa5;
+  float: left;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 21.5px;
+}
+/* menu button set up next three */
+.menu1 {
+  float: right;
+  width: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  text-decoration: none;
+  padding-left: 5px;
+  border-right: 2px solid #777777;
+}
+
+.menu2 {
+  float: right;
+  width: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 20px;
+  border-right: 2px solid #777777;
+}
+
+.menu3 {
+  float: right;
+  width: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+/*  (Section-2) Universal conent section, background, body, and H2*/
+.content {
+  max-width: 960px;
+  margin: auto;
+  align-self: center;
+}
+/* padding on content */
+.h2-n-line {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+/* h2 design */
+h2 {
+  font-size: 28px;
+  color: #4aaaa5;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* white background */
+.MainSection { 
+  height: 750px;
+  width: 960px;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  font-size: 18px;
+  padding: 0px 15px 0px 15px;
+  margin: auto;
+}
+/* background grey */
+body {
+  background-image: url("gray_jean.png");
+}
+
+/*  (Section-3) About me page specific*/
+/* image */
+img {
+  height: 200px;
+  width: 275px;
+  float: left;
+  padding: 5px 20px 5px 0px;
+}
+/* paragraph set next 3 */
+.Content1{
+  float: left;
+  font-size: 16px;
+}
+
+.Content2{
+  float: left;
+  font-size: 16px;
+}
+
+.Content3{
+  float: left;
+  font-size: 16px;
+}
+
+/*  (Section-4) Portfolio page specific*/
+/* main section set up */
+.container-p {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  margin-right: 50px;
+}
+/* image restrictions */
+.container-p img {
+  width: 100%;
+  border: 0 none;
+}
+/* text design */
+.container-p h4 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  font-family: “Georgia, ‘Times New Roman’, Times, serif”;
+  font-size: 22px;
+}
+/* content set up */
+.MainSection-P { 
+  height: 1000px;
+  width: 960px;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  font-size: 18px;
+  padding: 0px 15px 0px 15px;
+  margin: auto;
+}
+
+
+/*  (Section-5) Contact page specific*/
+
+/*.Name-Menu-C {
+  width: 760px;
+  margin: auto;
+}
+
+.content-C {
+  max-width: 960px;
+  margin: auto;
+  align-self: center;
+}*/
+
+/* main part set up */
+.MainSection-C { 
+  height: 650px;
+  width: 960px;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  font-size: 18px;
+  padding: 0px 15px 0px 15px;
+  margin: auto;
+  border-radius: 5px;
+}
+/* padding on H2 and horizontal line */
+.h2NlineC {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+/* form sections design */
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+/* button design */
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* button hover */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+/* padding on main content */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/*  (Section-6) Universal - footer specific*/
+/* footer set up */
+footer {
+  text-align: center;
+  background-color: #666666;
+  color: #ffffff;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  border-top: 5px solid black;
+  border-color: #4aaaa5;
+  bottom: 0%;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+
+@media screen and (max-width: 980px) {
+
+  /* header width and centering */
+  .Name-Menu {
+    width: 760px;
+  }
+
+  /*  conent section */
+  .content {
+    max-width: 760px;
+  }
+
+    /* white background */
+  .MainSection { 
+    height: 980px;
+    width: 760px;
+    font-size: 18px;
+  }
+
+  /* ^^^^^^^Portfolio page specific */
+
+  /* content set up */
+  .MainSection-P { 
+    height: 950px;
+    width: 760px;
+    font-size: 18px;
+    padding: 0px 15px 0px 15px;
+  }
+
+  /* ^^^^^^Contact page specific */
+
+  .MainSection-C { 
+    width: 760px;
+
+  
+
+}
+
+@media screen and (max-width: 768px) {
+
+  /* header width and centering */
+  .Name-Menu {
+    width: 560px;
+  }
+
+  /* conent section */
+  .content {
+    max-width: 560px;
+  }
+
+    /* white background */
+  .MainSection { 
+    height: 1250px;
+    width: 560px;
+    font-size: 18px;
+  }
+
+    /* H1 Design */
+  h1 {
+    width: 200px;
+    font-size: 28px;
+    padding: 21.5px;
+  }
+
+  /* h2 design */
+  h2 {
+    font-size: 28px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+  }
+
+    /* menu buttons */
+  .MenuItems {
+    font-size: 16px;
+  }
+
+    /* menu button set up next three */
+
+    /* About */
+  .menu1 {
+    width: 60px;
+    padding-left: 0px;
+  }
+
+  /* portfolio */
+  .menu2 {
+    width: 75px;
+    padding-left: 10px;
+    padding-right: 3px;
+  }
+
+  /* contact */
+  .menu3 {
+    padding-left: 10px;
+  }
+
+  /* ^^^^^^^Portfolio page speciffic */
+
+  .container-p {
+    width: 200px;
+    margin-right: 50px;
+  }
+
+  .container-p img {
+    width: 100%;
+    height: 175px;
+  }
+
+  .container-p h4 {
+    font-size: 18px;
+  }
+  /* content set up */
+  .MainSection-P { 
+    height: 850px;
+    width: 560px;
+    font-size: 18px;
+  }
+
+  /* ^^^^^^^Contact Page Section */
+
+  /* main part set up */
+  .MainSection-C { 
+    height: 600px;
+    width: 560px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  /* header width and centering */
+  .Name-Menu {
+    width: 460px;
+  }
+  /*  conent section */
+  .content {
+    max-width: 560px;
+  }
+
+    /* white background */
+  .MainSection { 
+    height: 1000px;
+    width: 460px;
+    font-size: 14px;
+  }
+
+    /* H1 Design */
+  h1 {
+    width: 150px;
+    font-size: 20px;
+    padding: 19px;
+  }
+
+  /* h2 design */
+  h2 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+
+    /* menu buttons */
+  .MenuItems {
+    font-size: 14px;
+  }
+
+    /* menu button set up next three */
+
+    /* About */
+  .menu1 {
+    width: 50px;
+    padding-left: 0px;
+  }
+
+  /* portfolio */
+  .menu2 {
+    width: 65px;
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+
+  /* contact */
+  .menu3 {
+    padding-left: 8px;
+  }
+
+    /* header and menu design */
+  header {
+    height: 60px;
+  }
+
+  /* ^^^^^Portfolio page speciffic */
+
+  .container-p {
+    width: 150px;
+    margin-right: 50px;
+  }
+
+  .container-p img {
+    width: 100%;
+    height: 131px;
+  }
+
+  .container-p h4 {
+    font-size: 18px;
+    padding: 3px;
+    bottom: 10px;
+  }
+  /* content set up */
+  .MainSection-P { 
+    height: 650px;
+    width: 460px;
+  }
+
+  /* ^^^^^^^Contact page section */
+
+   /* main part set up */
+   .MainSection-C { 
+    height: 560px;
+    width: 460px;
+    font-size: 14px;
+  }
+}
+
+}
